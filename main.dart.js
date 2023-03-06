@@ -79059,23 +79059,23 @@ s=n.a
 r=s.c
 q=n.z
 s=s.ax
-n.e=m.rS(r,q.gah2(),s,"At least - character",n.e)
+n.e=m.rS(r,q.gah2(),s,"lunga almeno - caratteri",n.e)
 s=n.a
 r=s.d
 s=s.ax
-n.f=m.rS(r,q.gah4(),s,"- Letter",n.f)
+n.f=m.rS(r,q.gah4(),s,"almeno - lettera minuscola",n.f)
 s=n.a
 r=s.e
 s=s.ax
-n.r=m.rS(r,q.gaha(),s,"- Uppercase letter",n.r)
+n.r=m.rS(r,q.gaha(),s,"almeno - lettera maiuscola",n.r)
 s=n.a
 r=s.f
 s=s.ax
-n.w=m.rS(r,q.gah6(),s,"- Numeric character",n.w)
+n.w=m.rS(r,q.gah6(),s,"almeno - numero",n.w)
 s=n.a
 r=s.r
 s=s.ax
-n.x=m.rS(r,q.gah8(),s,"- Special character",n.x)
+n.x=m.rS(r,q.gah8(),s,"almeno - carattere speciale",n.x)
 m=m.b
 p=m.a
 for(m=m.gaL(m),m=new A.d6(J.aG(m.a),m.b),s=A.l(m).z[1],o=0;m.A();){r=m.a
@@ -79092,11 +79092,11 @@ r=new A.a14(new A.a5e())
 p.y!==$&&A.e6()
 p.y=r
 q=A.x(t.N,t.y)
-if(s.c>0)q.n(0,"At least - character",!1)
-if(s.d>0)q.n(0,"- Letter",!1)
-if(s.e>0)q.n(0,"- Uppercase letter",!1)
-if(s.f>0)q.n(0,"- Numeric character",!1)
-if(s.r>0)q.n(0,"- Special character",!1)
+if(s.c>0)q.n(0,"lunga almeno - caratteri",!1)
+if(s.d>0)q.n(0,"almeno - lettera minuscola",!1)
+if(s.e>0)q.n(0,"almeno - lettera maiuscola",!1)
+if(s.f>0)q.n(0,"almeno - numero",!1)
+if(s.r>0)q.n(0,"almeno - carattere speciale",!1)
 r.b=q
 p.a.ax.W(0,new A.a5c(p))},
 l(){this.aI()},
@@ -79122,19 +79122,19 @@ $S:0}
 A.a5b.prototype={
 $1(a){var s,r=a.gbh(a),q=this.a
 q.a.toString
-s=J.d(r,"At least - character")?q.a.c:null
+s=J.d(r,"lunga almeno - caratteri")?q.a.c:null
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"- Letter"))s=q.a.d
+if(J.d(r,"almeno - lettera minuscola"))s=q.a.d
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"- Uppercase letter"))s=q.a.e
+if(J.d(r,"almeno - lettera maiuscola"))s=q.a.e
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"- Numeric character"))s=q.a.f
+if(J.d(r,"almeno - numero"))s=q.a.f
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"- Special character"))s=q.a.r
+if(J.d(r,"almeno - carattere speciale"))s=q.a.r
 r=q.d
 r===$&&A.b()
 if(r)r=q.a.w
