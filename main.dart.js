@@ -79059,23 +79059,23 @@ s=n.a
 r=s.c
 q=n.z
 s=s.ax
-n.e=m.rS(r,q.gah2(),s,"lunga almeno - caratteri",n.e)
+n.e=m.rS(r,q.gah2(),s,"At least - character",n.e)
 s=n.a
 r=s.d
 s=s.ax
-n.f=m.rS(r,q.gah4(),s,"almeno - lettera minuscola",n.f)
+n.f=m.rS(r,q.gah4(),s,"- Letter",n.f)
 s=n.a
 r=s.e
 s=s.ax
-n.r=m.rS(r,q.gaha(),s,"almeno - lettera maiuscola",n.r)
+n.r=m.rS(r,q.gaha(),s,"- Uppercase letter",n.r)
 s=n.a
 r=s.f
 s=s.ax
-n.w=m.rS(r,q.gah6(),s,"almeno - numero",n.w)
+n.w=m.rS(r,q.gah6(),s,"- Numeric character",n.w)
 s=n.a
 r=s.r
 s=s.ax
-n.x=m.rS(r,q.gah8(),s,"almeno - carattere speciale",n.x)
+n.x=m.rS(r,q.gah8(),s,"- Special character",n.x)
 m=m.b
 p=m.a
 for(m=m.gaL(m),m=new A.d6(J.aG(m.a),m.b),s=A.l(m).z[1],o=0;m.A();){r=m.a
@@ -79092,11 +79092,11 @@ r=new A.a14(new A.a5e())
 p.y!==$&&A.e6()
 p.y=r
 q=A.x(t.N,t.y)
-if(s.c>0)q.n(0,"lunga almeno - caratteri",!1)
-if(s.d>0)q.n(0,"almeno - lettera minuscola",!1)
-if(s.e>0)q.n(0,"almeno - lettera maiuscola",!1)
-if(s.f>0)q.n(0,"almeno - numero",!1)
-if(s.r>0)q.n(0,"almeno - carattere speciale",!1)
+if(s.c>0)q.n(0,"At least - character",!1)
+if(s.d>0)q.n(0,"- Letter",!1)
+if(s.e>0)q.n(0,"- Uppercase letter",!1)
+if(s.f>0)q.n(0,"- Numeric character",!1)
+if(s.r>0)q.n(0,"- Special character",!1)
 r.b=q
 p.a.ax.W(0,new A.a5c(p))},
 l(){this.aI()},
@@ -79122,19 +79122,19 @@ $S:0}
 A.a5b.prototype={
 $1(a){var s,r=a.gbh(a),q=this.a
 q.a.toString
-s=J.d(r,"lunga almeno - caratteri")?q.a.c:null
+s=J.d(r,"At least - character")?q.a.c:null
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"almeno - lettera minuscola"))s=q.a.d
+if(J.d(r,"- Letter"))s=q.a.d
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"almeno - lettera maiuscola"))s=q.a.e
+if(J.d(r,"- Uppercase letter"))s=q.a.e
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"almeno - numero"))s=q.a.f
+if(J.d(r,"- Numeric character"))s=q.a.f
 r=a.gbh(a)
 q.a.toString
-if(J.d(r,"almeno - carattere speciale"))s=q.a.r
+if(J.d(r,"- Special character"))s=q.a.r
 r=q.d
 r===$&&A.b()
 if(r)r=q.a.w
@@ -80846,18 +80846,17 @@ A.m9.prototype={
 gav(a){return this.c}}
 A.a9e.prototype={
 q5(a,b){return this.UC(0,b)},
-UC(a,b){var s=0,r=A.V(t.Wd),q,p=this,o,n,m,l,k,j,i
+UC(a,b){var s=0,r=A.V(t.Wd),q,p=this,o,n,m,l,k,j
 var $async$q5=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:o=t.N
 n=A
 m=A.o2("https://13.74.188.142:5000/api/v1/"+b)
 l=A
-k="application/json"
-j="Authorization"
-i=A
+k="Authorization"
+j=A
 s=3
 return A.Z(p.ur(),$async$q5)
-case 3:q=n.aRc(m,l.aD(["Accept",k,j,"Bearer "+i.f(d)],o,o))
+case 3:q=n.aRc(m,l.aD([k,"Bearer "+j.f(d),"Access-Control-Allow-Origin","*","Content-Type","application/json","Accept","*/*"],o,o))
 s=1
 break
 case 1:return A.T(q,r)}})
@@ -80868,14 +80867,14 @@ var $async$iA=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:o=A.o2("https://13.74.188.142:5000/api/v1/"+a)
 n=t.N
 m=A
-l="Content-Type"
-k="application/json"
+l="Access-Control-Allow-Origin"
+k="Content-Type"
 j="application/json"
 i="Authorization"
 h=A
 s=3
 return A.Z(p.ur(),$async$iA)
-case 3:n=m.aD([l,k,"Accept",j,i,"Bearer "+h.f(d)],n,n)
+case 3:n=m.aD([l,"*",k,j,"Accept","*/*",i,"Bearer "+h.f(d)],n,n)
 q=A.aS0(o,B.P.QW(b,null),n)
 s=1
 break
