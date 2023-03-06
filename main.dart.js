@@ -80625,7 +80625,7 @@ case 3:n=b
 n.toString
 m=A.CI(B.P.f3(0,n,null))
 n=p.d
-if(n==null){$.cp().gN().cA(B.OV)
+if(n==null){$.cp().gN().cA(B.OU)
 q=!1
 s=1
 break}s=4
@@ -81421,7 +81421,7 @@ $S:16}
 A.a8e.prototype={
 $0(){var s=this.a.X(t.Pu)
 s.toString
-s.f.cA(B.OU)},
+s.f.cA(B.OV)},
 $S:0}
 A.a8f.prototype={
 $0(){var s=0,r=A.V(t.H),q=this
@@ -90367,16 +90367,16 @@ B.OQ=new A.id(3,"hide")
 B.Xq=new A.id(4,"remove")
 B.yj=new A.id(5,"timeout")
 B.OR=new A.uR(null,null,null,null,null,null,null,null,null,null)
-B.U_=new A.ex("Password cambiata con successo!",null,null,null,null,null,null,null,null)
-B.OS=new A.hA(B.U_,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
+B.TZ=new A.ex("Password cambiata con successo!",null,null,null,null,null,null,null,null)
+B.OS=new A.hA(B.TZ,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
 B.TP=new A.ex("Le password non coincidono!",null,null,null,null,null,null,null,null)
 B.OT=new A.hA(B.TP,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
-B.TZ=new A.ex("Errore di connessione!",null,null,null,null,null,null,null,null)
-B.bA=new A.hA(B.TZ,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
-B.TY=new A.ex("Contatta lamministratore del ristorante!",null,null,null,null,null,null,null,null)
-B.OU=new A.hA(B.TY,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
+B.TY=new A.ex("Errore di connessione!",null,null,null,null,null,null,null,null)
+B.bA=new A.hA(B.TY,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
 B.TS=new A.ex("Devi prima fornire il numero del tavolo!",null,null,null,null,null,null,null,null)
-B.OV=new A.hA(B.TS,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
+B.OU=new A.hA(B.TS,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
+B.U_=new A.ex("Contatta l'amministratore del ristorante!",null,null,null,null,null,null,null,null)
+B.OV=new A.hA(B.U_,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
 B.TU=new A.ex("Devi prima aggiungere degli elementi all'ordine!",null,null,null,null,null,null,null,null)
 B.OW=new A.hA(B.TU,null,null,null,null,null,null,null,null,null,null,B.a6,null,null,B.a3,B.v,null)
 B.U0=new A.ex("Hai bisogno di Ratatouille Admin!",null,null,null,null,null,null,null,null)
