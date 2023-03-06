@@ -80846,18 +80846,17 @@ A.m9.prototype={
 gav(a){return this.c}}
 A.a9e.prototype={
 q5(a,b){return this.UC(0,b)},
-UC(a,b){var s=0,r=A.V(t.Wd),q,p=this,o,n,m,l,k,j,i
+UC(a,b){var s=0,r=A.V(t.Wd),q,p=this,o,n,m,l,k,j
 var $async$q5=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:o=t.N
 n=A
-m=A.o2("https://13.74.188.142:5000/api/v1/"+b)
+m=A.o2("http://13.74.188.142:5000/api/v1/"+b)
 l=A
-k="application/json"
-j="Authorization"
-i=A
+k="Authorization"
+j=A
 s=3
 return A.Z(p.ur(),$async$q5)
-case 3:q=n.aRc(m,l.aD(["Accept",k,j,"Bearer "+i.f(d)],o,o))
+case 3:q=n.aRc(m,l.aD([k,"Bearer "+j.f(d),"Access-Control-Allow-Origin","*","Content-Type","application/json","Accept","*/*"],o,o))
 s=1
 break
 case 1:return A.T(q,r)}})
@@ -80865,17 +80864,17 @@ return A.U($async$q5,r)},
 iA(a,b){return this.ajK(a,b)},
 ajK(a,b){var s=0,r=A.V(t.Wd),q,p=this,o,n,m,l,k,j,i,h
 var $async$iA=A.W(function(c,d){if(c===1)return A.S(d,r)
-while(true)switch(s){case 0:o=A.o2("https://13.74.188.142:5000/api/v1/"+a)
+while(true)switch(s){case 0:o=A.o2("http://13.74.188.142:5000/api/v1/"+a)
 n=t.N
 m=A
-l="Content-Type"
-k="application/json"
+l="Access-Control-Allow-Origin"
+k="Content-Type"
 j="application/json"
 i="Authorization"
 h=A
 s=3
 return A.Z(p.ur(),$async$iA)
-case 3:n=m.aD([l,k,"Accept",j,i,"Bearer "+h.f(d)],n,n)
+case 3:n=m.aD([l,"*",k,j,"Accept","*/*",i,"Bearer "+h.f(d)],n,n)
 q=A.aS0(o,B.P.QW(b,null),n)
 s=1
 break
